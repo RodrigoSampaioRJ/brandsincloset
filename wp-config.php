@@ -28,7 +28,7 @@ if(isset($_ENV[`CLEARDB_COPPER_URL`])) {
     define(‘DB_CHARSET’, ‘utf8’);
     define(‘DB_COLLATE’, ‘’);
 } else {
-    die(‘No Database credentials!’);
+    die("No Database credentials!");
 }
 /**#@+
  * Authentication unique keys and salts.
